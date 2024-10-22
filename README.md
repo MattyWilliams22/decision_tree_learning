@@ -13,7 +13,6 @@
 
 ### Decision Tree Learning:
 
-- Work out how to calculate entropy with continuous values (as opposed to discrete classes).
 - Check all the functions work as intended.
 
 ### Tree Visualiser:
