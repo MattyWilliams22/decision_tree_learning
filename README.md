@@ -1,28 +1,32 @@
-## Specification
 
-### The decision tree currently has the following form:
+# Introduction to ML - Decision Tree Coursework
+This project implements a decision tree learning algorithm with cross-validation for classification. The project analyzes WiFi signal datasets and applies a decision tree learning method to classify the data. The code also calculates various metrics to evaluate model performance.
 
-#### Nodes look like this:
-    {"split_attribute": 3, "split_value": -59, "l_branch": {...}, "r_branch": {...}}
+## Project Structure
 
-#### Leaves look like this:
-    {"value": 1}
+- `notebook.ipynb` - Main notebook containing the decision tree learning code, tree visualization, and evaluation metrics.
+- `requirements.txt` - File with required dependencies for the project.
+- `wifi_db/` - Directory containing the datasets:
+  - `clean_dataset.txt` - Clean dataset used for training and evaluation.
+  - `noisy_dataset.txt` - Noisy dataset that can be used as an alternative for testing.
 
+## Requirements
 
-## To do list:
+This project requires Python and the following dependencies:
 
-### Decision Tree Learning:
+- `matplotlib==3.9.2`
+- `numpy==2.1.1`
+- `scipy==1.14.1`
 
-- Check all the functions work as intended.
+These dependencies are listed in `requirements.txt`.
 
-### Tree Visualiser:
+## Installation & Usage
 
-- Create a tree visualiser
+To set up the environment, open a terminal session and `cd` to the directory where you extracted the zip file to. Run the following commands in this terminal session
+```bash
+$ source /vol/lab/ml/intro2ml/bin/activate
 
-### Evaluation Function:
-
-- Create a 10-fold cross-validation function
-
-### Classification Metrics Generator:
-
-- Generate metrics
+(intro2ml) $ jupyter notebook
+```
+This will provide you with a link to jupyter notebooks - open the link in a browser and double click on `notebook.ipynb`
+You can then run each block to see the learning, visualisation and evaluation stages
