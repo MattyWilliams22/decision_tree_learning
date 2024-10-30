@@ -30,3 +30,5 @@ $ source /vol/lab/ml/intro2ml/bin/activate
 ```
 This will provide you with a link to jupyter notebooks - open the link in a browser and double click on `notebook.ipynb`
 You can then run each block to see the learning, visualisation and evaluation stages
+In order to run on the noisy dataset, change TEST_DATASET to noisy_dataset in the first block
+The generated decision tree will be shown in the notebook and also stored as `tree.png` in the root directory
