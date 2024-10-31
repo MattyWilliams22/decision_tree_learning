@@ -22,13 +22,14 @@ These dependencies are listed in `requirements.txt`.
 
 ## Installation & Usage
 
-To set up the environment, open a terminal session and `cd` to the directory where you extracted the zip file to. Run the following commands in this terminal session
+To set up the environment, open a terminal session on a lab machine and `cd` to the directory where you extracted the zip file to. Run the following commands in this terminal session
 ```bash
 $ source /vol/lab/ml/intro2ml/bin/activate
 
 (intro2ml) $ jupyter notebook
 ```
-This will provide you with a link to jupyter notebooks - open the link in a browser and double click on `notebook.ipynb`
-You can then run each block to see the learning, visualisation and evaluation stages
-In order to run on the noisy dataset, change TEST_DATASET to noisy_dataset in the first block
-The generated decision tree will be shown in the notebook and also stored as `tree.png` in the root directory
+This will provide you with a link to jupyter notebooks - open the link in a browser and double click on `notebook.ipynb`.
+You can then run each block to see the learning, visualisation and evaluation stages.
+In order to run on the noisy dataset, change TEST_DATASET to 'wifi_db/noisy_dataset.txt' in the first block.
+Similarly, you can can change TEST_DATASET to any filepath of your choice containing a test dataset.
+The generated decision tree will be shown in the notebook and also stored as `tree.png` in the root directory.
